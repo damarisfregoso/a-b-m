@@ -5,13 +5,17 @@ import './App.css';
 import WelcomePage from '../WelcomePage/WelcomePage'
 import OurServicesPage from '../OurServicesPage/OurServicesPage'
 import NavBar from '../../components/NavBar/NavBar';
+import LanguageSelector from '../../components/LanguageSelector/language-selector'
 
 export default function App() {
   const [user, setUser] = useState(getUser());
 
   return (
     <main className="App">
-      <p>Contact us for a free quote today! We speak Spanish&darr;</p>
+      <div className="content-container">
+        <LanguageSelector />
+        <p>Contact us for a free quote today! We speak Spanish&darr;</p>
+      </div>
       <NavBar user={user} setUser={setUser} />
       <Routes>
         {/* Route components in here */}

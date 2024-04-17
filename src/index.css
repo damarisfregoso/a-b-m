@@ -1,6 +1,12 @@
 /* CSS Custom Properties */
 :root {
-
+  --body_background: rgb(227, 233, 236);
+  --body_color: rgb(0, 0, 0);
+  --body_hover: rgb(83, 106, 35);
+  --body_background-d: rgb(38, 65, 105);
+  --light-blue: rgb(86, 138, 173);
+  --sky-blue: rgb(154, 197, 235);
+  --gray: rgb(128, 128, 126);
 }
 
 *, *:before, *:after {
@@ -15,6 +21,7 @@ body {
   background-color: var(--tan-4);
   padding: 2vmin;
   height: 100vh;
+  background-color: var(--body_background);
 }
 
 #root {
@@ -103,21 +110,6 @@ input:focus {
   border-color: var(--orange);
 }
 
-button, a.button {
-  margin: 1vmin;
-  padding: 1vmin;
-  color: var(--white);
-  background-color: var(--orange);
-  font-size: 2vmin;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-  border: .1vmin solid var(--tan-2);
-  border-radius: .5vmin;
-  outline: none;
-  cursor: pointer;
-}
-
 button.btn-sm {
   font-size: 1.5vmin;
   padding: .6vmin .8vmin;
@@ -136,4 +128,24 @@ button:disabled, form:invalid button[type="submit"] {
 button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
+}
+
+.btn-container button {
+  border: 1.3px solid var(--body_color);
+  margin: 0;
+  padding: 0.2em 1.2em;
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--sky-blue);
+  transition: border-color 0.25s;
+  cursor: pointer;
+}
+
+.btn-container button:hover {
+  border-color: var(--body_hover);
+}
+
+.btn-container button.selected {
+  background-color: white;
 }
