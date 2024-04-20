@@ -6,5 +6,11 @@
     "line1": "Sick of all the problems that your home is giving you?",
     "line2": "Get your household troubles resolved in a breeze",
     "line3": "with quailty home repair and maintenance sercices from trusted experts!"
-  }
+  },
+  "navbar": {
+    "ourServ": "Our Services",
+    "ourWork": "Our Work",
+    "contact": "Contact Us!"
+  },
+  "contactQuote": "Contact us for a free quote today! We speak Spanish"
 }

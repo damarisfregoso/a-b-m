@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useTranslation } from "react-i18next";
 import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import './App.css';
@@ -9,12 +10,15 @@ import LanguageSelector from '../../components/LanguageSelector/language-selecto
 
 export default function App() {
   const [user, setUser] = useState(getUser());
+  const { t } = useTranslation()
+
+  const {ourServ, ourWork, contact} = t("navbar");
 
   return (
     <main className="App">
       <div className="content-container">
         <LanguageSelector />
-        <p>Contact us for a free quote today! We speak Spanish&darr;</p>
+        <p>{t("contactQuote")}&darr;</p>
       </div>
       <NavBar user={user} setUser={setUser} />
       <Routes>

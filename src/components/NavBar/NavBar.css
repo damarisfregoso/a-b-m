@@ -1,0 +1,8 @@
+.NavBar {
+  display: flex;
+  align-items: right;
+}
+
+.NavBar a {
+  text-align: center;
+}
