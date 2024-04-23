@@ -1,8 +1,11 @@
 .NavBar {
   display: flex;
-  align-items: right;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
 }
 
-.NavBar a {
-  text-align: center;
+.NavBar span {
+  display: flex;
+  align-items: flex-start;
 }

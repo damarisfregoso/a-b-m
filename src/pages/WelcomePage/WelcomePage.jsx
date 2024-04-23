@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import './WelcomePage.css'
 
 export default function WelcomePage() {
   const { t } = useTranslation()
