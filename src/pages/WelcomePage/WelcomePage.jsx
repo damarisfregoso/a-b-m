@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
 import './WelcomePage.css'
+import ReadyToStart from "../../components/ReadyToStart/ReadyToStart";
 
 export default function WelcomePage() {
   const { t } = useTranslation()
 
   const {slogan, year, line1, line2, line3} = t("description");
   const {ourServ} = t("navbar");
+  const {explore, pastWork} = t("buttons");
 
   return (
     <div className="WelcomePage">
@@ -33,6 +35,13 @@ export default function WelcomePage() {
       <div className="ourServices">
         <h1 className="chooseUs">{ourServ}</h1>
         <p>{t("servicesQuote")}</p>
+        <div className="ourServicesBtns">
+          <button>{explore}</button>
+          <button>{pastWork}</button>
+        </div>
+      </div>
+      <div>
+      <ReadyToStart />
       </div>
     </div>
   );
