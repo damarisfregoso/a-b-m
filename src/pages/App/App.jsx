@@ -6,13 +6,12 @@ import './App.css';
 import WelcomePage from '../WelcomePage/WelcomePage'
 import OurServicesPage from '../OurServicesPage/OurServicesPage'
 import NavBar from '../../components/NavBar/NavBar';
+import Footer from '../../components/Footer/Footer';
 import LanguageSelector from '../../components/LanguageSelector/language-selector'
 
 export default function App() {
   const [user, setUser] = useState(getUser());
   const { t } = useTranslation()
-
-  const {ourServ, ourWork, contact} = t("navbar");
 
   return (
     <main className="App">
@@ -26,6 +25,9 @@ export default function App() {
         <Route path="/" element={<WelcomePage />} />
         <Route path="/services" element={<OurServicesPage />} />
       </Routes>
+      <footer>
+        <Footer />
+      </footer>
     </main>
   );
 }

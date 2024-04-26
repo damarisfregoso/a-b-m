@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .content-container {
@@ -10,4 +11,8 @@
 .content-container p {
   margin: 0;
   font-size: 13px;
+}
+
+footer {
+  margin-top: auto;
 }

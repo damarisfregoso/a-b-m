@@ -8,7 +8,7 @@ export default function ReadyToStart() {
 
   return (
     <div className='ReadyToStart'>
-      <h1 className='chooseUs'>{t("ReadyToStart")}</h1>
+      <h1 className='chooseUs'>{t("readyToStart")}</h1>
       <button>{contactUs}</button>
     </div>
   );
