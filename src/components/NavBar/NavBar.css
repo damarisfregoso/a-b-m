@@ -8,4 +8,5 @@
 .NavBar span {
   display: flex;
   align-items: flex-start;
+  font-size: 30px;
 }

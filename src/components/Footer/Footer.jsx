@@ -17,8 +17,8 @@ export default function Footer() {
 
   return (
     <footer className='Footer'>
+
       <div className="footer-one">
-        <div>
           <Link to="/services">{ourServ}</Link>
           &nbsp; | &nbsp;
           <Link to="">{ourWork}</Link>
@@ -26,20 +26,22 @@ export default function Footer() {
           &nbsp; | &nbsp;
           <Link to="">{contact}</Link>
           &nbsp;&nbsp;
-        </div>
-        <span>
+      </div>  
+
+      <div className="footer-two">
         <a href="https://www.facebook.com/Affordable.Building.Maintenace?mibextid=ZbWKwL">
         <img src="https://www.clipartmax.com/png/full/165-1651536_facebook-logo-facebook-green-logo-png.png" alt="ABM facebook link" />
-      </a>
-        </span>
+        </a>
       </div>
-      <div className="footer-two">
+
+      <div className="footer-three">
         <p>Developed by {developerInfo.name}</p>
         <p>Role: {developerInfo.role}</p>
         <p>Portfolio: <a href={developerInfo.portfolio}>View Portfolio</a></p>
         <p>GitHub: <a href={developerInfo.github}>GitHub Profile</a></p>
         <p>LinkedIn: <a href={developerInfo.linkedin}>LinkedIn Profile</a></p>
       </div>
+
     </footer>
   );
 }
