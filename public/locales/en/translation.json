@@ -20,6 +20,15 @@
     "pastWork": "Our Past Work",
     "contactUs": "Contact Us"
   },
-  "readyToStart": "Ready to get started on that one project?"
-  
+  "readyToStart": "Ready to get started on that one project?",
+  "footer": {
+    "developedBy": "Developed by",
+    "role": "Role",
+    "portfolio": "Portfolio",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "viewPortfolio": "View Portfolio",
+    "viewLinkedin": "View LinkedIn",
+    "viewGithub": "GitHub Profile"
+  }
 }

@@ -6,6 +6,7 @@ export default function Footer() {
 
   const { t } = useTranslation()
   const {ourServ, ourWork, contact} = t("navbar");
+  const {developedBy, role, portfolio, github, linkedin, viewPortfolio, viewLinkedin, viewGithub} = t("footer")
 
   const developerInfo = {
     name: "Damaris Fregoso",
@@ -22,7 +23,6 @@ export default function Footer() {
           <Link to="/services">{ourServ}</Link>
           &nbsp; | &nbsp;
           <Link to="">{ourWork}</Link>
-          &nbsp;&nbsp;
           &nbsp; | &nbsp;
           <Link to="">{contact}</Link>
           &nbsp;&nbsp;
@@ -35,11 +35,11 @@ export default function Footer() {
       </div>
 
       <div className="footer-three">
-        <p>Developed by {developerInfo.name}</p>
-        <p>Role: {developerInfo.role}</p>
-        <p>Portfolio: <a href={developerInfo.portfolio}>View Portfolio</a></p>
-        <p>GitHub: <a href={developerInfo.github}>GitHub Profile</a></p>
-        <p>LinkedIn: <a href={developerInfo.linkedin}>LinkedIn Profile</a></p>
+        <p>{developedBy}: {developerInfo.name}</p>
+        <p>{role}: {developerInfo.role}</p>
+        <p>{portfolio}: <a href={developerInfo.portfolio}>{viewPortfolio}</a></p>
+        <p>{github}: <a href={developerInfo.github}>{viewGithub}</a></p>
+        <p>{linkedin}: <a href={developerInfo.linkedin}>{viewLinkedin}</a></p>
       </div>
 
     </footer>

@@ -3,10 +3,19 @@
   justify-content: space-between;
   align-items: center;
   font-size: 15px;
+  margin: 10px 0;
 }
 
 .NavBar span {
   display: flex;
   align-items: flex-start;
   font-size: 30px;
+}
+
+.NavBar a {
+  text-decoration: none;
+  color: var(--body_color);
+}
+.NavBar a:hover {
+  color: var(--body_hover);
 }

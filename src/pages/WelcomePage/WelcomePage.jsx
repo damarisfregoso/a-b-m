@@ -29,20 +29,18 @@ export default function WelcomePage() {
           Blanditiis libero fuga cumque facilis! Ad est fugit natus neque reprehenderit porro deleniti eos tempore reiciendis voluptatum saepe eius id veniam ut deserunt, accusamus repellendus quae et? Impedit, unde nulla?</p>
         </>
         <>
-          <img src="https://static.scientificamerican.com/sciam/cache/file/D1E779C2-5585-48B9-B5B8CA83481D212C_source.jpg?w=1200" alt="placeholder for now" />
+          <img src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="placeholder for now" />
         </>
       </div>
       <div className="ourServices">
         <h1 className="chooseUs">{ourServ}</h1>
         <p>{t("servicesQuote")}</p>
         <div className="ourServicesBtns">
-          <button>{explore}</button>
-          <button>{pastWork}</button>
+          <button className="welcomeBtns">{explore}</button>
+          <button className="welcomeBtns">{pastWork}</button>
         </div>
       </div>
-      <div>
       <ReadyToStart />
-      </div>
     </div>
   );
 }

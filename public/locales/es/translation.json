@@ -20,5 +20,15 @@
     "pastWork": "Nuestro trabajo pasado",
     "contactUs": "Contacta con nosotros"
   },
-  "readyToStart": "¿Listo para comenzar con ese proyecto?"
+  "readyToStart": "¿Listo para comenzar con ese proyecto?",
+  "footer": {
+    "developedBy": "Desarrollado por",
+    "role": "Role",
+    "portfolio": "Portafolio",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "viewPortfolio": "Ver Portafolio",
+    "viewLinkedin": "Ver LinkedIn",
+    "viewGithub": "Perfil de GitHub"
+  }
 }

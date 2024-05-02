@@ -8,8 +8,8 @@ export default function ReadyToStart() {
 
   return (
     <div className='ReadyToStart'>
-      <h1 className='chooseUs'>{t("readyToStart")}</h1>
-      <button>{contactUs}</button>
+      <h1>{t("readyToStart")}</h1>
+      <span><button className="welcomeBtns">{contactUs}</button></span>
     </div>
   );
 }

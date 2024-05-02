@@ -19,10 +19,9 @@ export default function NavBar() {
       <DarkMode />
       <span>
         <Link to="/services">{ourServ}</Link>
-        &nbsp; | &nbsp;
+        &nbsp; &nbsp; &nbsp;
         <Link to="">{ourWork}</Link>
-        &nbsp;&nbsp;
-        &nbsp; | &nbsp;
+        &nbsp; &nbsp; &nbsp;
         <Link to="">{contact}</Link>
         &nbsp;&nbsp;
         {/* <span>Welcome, {user.name}</span>
