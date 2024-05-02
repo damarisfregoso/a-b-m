@@ -7,10 +7,12 @@
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  background-color: green;
 }
 
 .content-container p {
   margin: 0;
+  color: white;
 }
 
 footer {
