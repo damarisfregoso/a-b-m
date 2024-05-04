@@ -152,3 +152,9 @@ button[type="submit"] {
 .btn-container button.selected {
   background-color: white;
 }
+
+@media (max-width: 480px) {
+  body {
+    height: 100vh;
+  }
+}

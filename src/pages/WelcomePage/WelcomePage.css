@@ -90,3 +90,30 @@
 
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  .opening {
+    padding: 20px 0;
+  }
+  .opening h1{
+    font-size: 35px;
+  }
+  .opening span {
+    font-size: 16px;
+  }
+  .opening h4 {
+    font-size: 16px;
+  }
+
+  .quote {
+    font-size: 25px;
+  }
+
+  .chooseUs {
+    font-size: 45px;
+  }
+
+  /* .chooseUs-Box {
+    
+  } */
+}

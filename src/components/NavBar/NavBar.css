@@ -19,3 +19,9 @@
 .NavBar a:hover {
   color: var(--body_hover);
 }
+
+@media (max-width: 480px) {
+  .NavBar span{
+    font-size: 15px;
+  }
+}

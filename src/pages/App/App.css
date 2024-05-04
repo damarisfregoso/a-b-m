@@ -18,3 +18,10 @@
 footer {
   margin-top: auto;
 }
+
+@media (max-width: 480px) {
+  .content-container {
+    display: flex;
+    font-size: 14px
+  }
+}
