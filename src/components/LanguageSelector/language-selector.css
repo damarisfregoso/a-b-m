@@ -1,0 +1,14 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button {
+  font-size: 14px; /* Adjust font size for readability */
+}
+
+@media (max-width: 480px) {
+  .btn-container button {
+    font-size: 12px
+  }
+}
