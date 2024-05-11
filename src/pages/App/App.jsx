@@ -8,6 +8,7 @@ import OurServicesPage from '../OurServicesPage/OurServicesPage'
 import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 import LanguageSelector from '../../components/LanguageSelector/language-selector'
+import ContactUsPage from '../ContactUsPage/ContactUsPage';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -24,6 +25,7 @@ export default function App() {
         {/* Route components in here */}
         <Route path="/" element={<WelcomePage />} />
         <Route path="/services" element={<OurServicesPage />} />
+        <Route path="/contact" element={<ContactUsPage />}/>
       </Routes>
       <footer>
         <Footer />

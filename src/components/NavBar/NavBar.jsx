@@ -20,9 +20,9 @@ export default function NavBar() {
       <span>
         <Link to="/services">{ourServ}</Link>
         &nbsp; &nbsp; &nbsp;
-        <Link to="">{ourWork}</Link>
+        <Link to="/our-work">{ourWork}</Link>
         &nbsp; &nbsp; &nbsp;
-        <Link to="">{contact}</Link>
+        <Link to="/contact">{contact}</Link>
         &nbsp;&nbsp;
         {/* <span>Welcome, {user.name}</span>
         &nbsp;&nbsp;<Link to="" onClick={handleLogOut}>Log Out</Link> */}

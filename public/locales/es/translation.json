@@ -30,5 +30,10 @@
     "viewPortfolio": "Ver Portafolio",
     "viewLinkedin": "Ver LinkedIn",
     "viewGithub": "Perfil de GitHub"
+  },
+  "contactPage": {
+    "contactTitle": "Permítanos resolver sus problemas y ofrecerle una cotización gratuita. ¡Contáctenos hoy!",
+    "cellphone": "Teléfono móvil",
+    "email": "Correo electrónico"
   }
 }

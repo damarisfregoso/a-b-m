@@ -30,5 +30,10 @@
     "viewPortfolio": "View Portfolio",
     "viewLinkedin": "View LinkedIn",
     "viewGithub": "GitHub Profile"
+  },
+  "contactPage": {
+    "contactTitle": "Let us solve your problems and provide a free quote contact us today!",
+    "cellphone": "Cell Phone",
+    "email": "Email"
   }
 }
