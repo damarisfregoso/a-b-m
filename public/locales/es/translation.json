@@ -35,5 +35,8 @@
     "contactTitle": "Permítanos resolver sus problemas y ofrecerle una cotización gratuita. ¡Contáctenos hoy!",
     "cellphone": "Teléfono móvil",
     "email": "Correo electrónico"
-  }
+  },
+  "sloganTitles": {
+    "workTitle": "Artesanía capturada: sea testigo del arte de nuestro trabajo"
+  } 
 }
