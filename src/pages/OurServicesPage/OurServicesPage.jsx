@@ -1,6 +1,8 @@
-export default function OrderHistoryPage() {
+export default function OurServiesPage() {
 
   return (
-    <h1>OrderHistoryPage</h1>
+    <div className="OurServicesPage">
+      <h1>Our Services</h1>
+    </div>
   );
 }

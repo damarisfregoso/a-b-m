@@ -17,6 +17,7 @@ export default function NavBar() {
   return (
     <nav className='NavBar'>
       <DarkMode />
+      <Link to="/">home</Link>
       <span>
         <Link to="/services">{ourServ}</Link>
         &nbsp; &nbsp; &nbsp;

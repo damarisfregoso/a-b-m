@@ -39,11 +39,12 @@
 
 .chooseUs-Box p{
   font-size: 30px;
+  padding: 20px 80px 0 80px;
 }
 
 .chooseUs-Box img{
-  height: 500px;
-  padding: 10px 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .ourServices p {
@@ -120,10 +121,10 @@
     margin-top: 0;
   }
   
-  .chooseUs-Box img {
+  /* .chooseUs-Box img {
     height: 300px;
     padding: 10px 0;
-  }
+  } */
   
   .ourServices p {
     font-size: 17px;
@@ -148,26 +149,16 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-  .chooseUs-Box p {
-    padding: 0;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-  .chooseUs-Box {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    padding: 0 80px;
-  }
-  .chooseUs-Box img{
-    height: 300px;
-  }
 }
 
 @media (min-width: 1200px) and (max-width: 1919px){
+  /* .chooseUs-Box img{
+    height: 800px;
+    padding: 0 80px;
+  } */
   .chooseUs-Box {
     display: grid;
     justify-content: center;

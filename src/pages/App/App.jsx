@@ -9,27 +9,29 @@ import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 import LanguageSelector from '../../components/LanguageSelector/language-selector'
 import ContactUsPage from '../ContactUsPage/ContactUsPage';
+import OurWorkPage from '../OurWorkPage/OurWorkPage';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
   const { t } = useTranslation()
 
   return (
-    <main className="App">
-      <div className="content-container">
-        <LanguageSelector />
-        <p>{t("contactQuote")}&darr;</p>
+    <div className="App">
+      <div className="main-content">
+        <div className="content-container">
+          <LanguageSelector />
+          <p>{t("contactQuote")}&darr;</p>
+        </div>
+        <NavBar user={user} setUser={setUser} />
+        <Routes>
+          {/* Route components in here */}
+          <Route path="/" element={<WelcomePage />} />
+          <Route path="/services" element={<OurServicesPage />} />
+          <Route path="/contact" element={<ContactUsPage />}/>
+          <Route path="/our-work" element={<OurWorkPage />}/>
+        </Routes>
       </div>
-      <NavBar user={user} setUser={setUser} />
-      <Routes>
-        {/* Route components in here */}
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="/services" element={<OurServicesPage />} />
-        <Route path="/contact" element={<ContactUsPage />}/>
-      </Routes>
-      <footer>
-        <Footer />
-      </footer>
-    </main>
+      <footer><Footer /></footer>
+    </div>
   );
 }

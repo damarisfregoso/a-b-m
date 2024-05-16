@@ -1,6 +1,6 @@
 export default function OurWorkPage() {
 
   return (
-    <h1>Our Work Page</h1>
+    <h1>Our Work</h1>
   );
 }
