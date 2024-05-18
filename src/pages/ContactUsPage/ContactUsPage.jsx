@@ -12,11 +12,11 @@ export default function ContactUsPage() {
     <div className="contact-container">
       <div>
         <h1>{cellphone}</h1>
-        <a href={`tel:${cellphone}`}>(111)222-3333</a>
+        <a href={`tel:${cellphone}`}>(209)688-5588</a>
       </div>
       <div>
         <h1>{email}</h1>
-        <a href={`mailto:${email}`}>affordablebuildingm6@gmail.com</a>
+        <a href={`mailto:${email}`}>Affordablebuildingm6@gmail.com</a>
       </div>
     </div>
   </div>
