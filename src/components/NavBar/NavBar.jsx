@@ -16,8 +16,10 @@ export default function NavBar() {
 
   return (
     <nav className='NavBar'>
-      <DarkMode />
-      <Link to="/"><img src="/ABMLogoTransparent.png" alt="ABM logo" className='ABMLogo'/></Link>
+      <section>
+        <DarkMode />
+        <Link to="/"><img src="/ABMLogo.jpg" alt="ABM logo" className='ABMLogo'/></Link>
+      </section>
       <span>
         <Link to="/services">{ourServ}</Link>
         &nbsp; &nbsp; &nbsp;

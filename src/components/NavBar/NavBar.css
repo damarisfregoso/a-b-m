@@ -20,6 +20,23 @@
   color: var(--body_hover);
 }
 
+.NavBar img {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.NavBar section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar .ABMLogo {
+  margin-left: 20px;
+}
+
 @media (max-width: 480px) {
   .NavBar span{
     font-size: 15px;

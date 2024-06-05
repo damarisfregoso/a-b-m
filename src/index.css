@@ -3,7 +3,7 @@
   --body_background: rgb(227, 233, 236);
   --body_color: rgb(0, 0, 0);
   --body_hover: rgb(83, 106, 35);
-  --light-blue: rgb(86, 138, 173);
+  --light-blue: rgb(187, 228, 255);
   --sky-blue: rgb(154, 197, 235);
   --gray: rgb(128, 128, 126);
 }
@@ -11,6 +11,7 @@
 [data-theme="dark"] {
   --body_background: rgb(38, 65, 105);
   --body_color: white;
+  --light-blue: var(--sky-blue);
 }
 
 *, *:before, *:after {
