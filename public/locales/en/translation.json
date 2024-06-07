@@ -42,10 +42,23 @@
   },
   "serviceTitles": {
     "AppAndCab": "Appliance & Cabinet Installatioins",
-    "Decks": "Decks & Patios"
+    "Decks": "Decks & Patios",
+    "Electrical": "Electrical",
+    "HomeRepairs": "Home Repairs",
+    "Painting": "Painting",
+    "Plumbing": "Plumbing",
+    "Remodeling": "Remodeling",
+    "Roofing": "Roofing"
+
   },
   "serviceSolgan": {
     "AppAndCabInfo": "Transforming Spaces, One Appliance and Cabinet at a Time.",
-    "DecksInfo": ""
+    "DecksInfo": "Building Outdoor Havens: Our Deck and Patio Expertise Unleashed.",
+    "ElectricalInfo": "Illuminating Your Space: Our Electrical Solutions Shine Bright.",
+    "HomeRepairsInfo": "Restoring Comfort, One Repair at a Time: Trust Our Home Repair Experts.",
+    "PaintingInfo": "Transforming Spaces with Every Brushstroke: Expert Painting Services Await.",
+    "PlumbingInfo": "Seamless Flow, Reliable Solutions: Plumbing Excellence Delivered.",
+    "RemodelingInfo": "Revitalize Your Space: Expert Remodeling Services Tailored to Your Vision.",
+    "RoofingInfo": "Raising the Roof on Quality: Dependable Roofing Solutions for Every Need."
   }
 }

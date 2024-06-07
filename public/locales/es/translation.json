@@ -39,5 +39,26 @@
   "sloganTitles": {
     "workTitle": "Artesanía capturada: sea testigo del arte de nuestro trabajo",
     "serviceTitle": "Explore nuestros servicios integrales"
-  } 
+  },
+  "serviceTitles": {
+    "AppAndCab": "Instalación de electrodomésticos y gabinetes",
+    "Decks": "Terrazas y patios",
+    "Electrical": "Eléctrico",
+    "HomeRepairs": "Home Repairs",
+    "Painting": "Cuadro",
+    "Plumbing": "Plomería",
+    "Remodeling": "Remodeling",
+    "Roofing": "Techumbre"
+
+  },
+  "serviceSolgan": {
+    "AppAndCabInfo": "Transformando espacios, un electrodoméstico y gabinete a la vez.",
+    "DecksInfo": "Construyendo paraísos al aire libre: nuestra experiencia en terrazas y patios desatada.",
+    "ElectricalInfo": "Construyendo paraísos al aire libre: nuestra experiencia en terrazas y patios desatada.",
+    "HomeRepairsInfo": "Restaurando la comodidad, una reparación a la vez: confíe en nuestros expertos en reparaciones del hogar.",
+    "PaintingInfo": "Transformando espacios con cada pincelada: te esperan servicios de pintura expertos.",
+    "PlumbingInfo": "Flujo continuo, soluciones confiables: excelencia en plomería entregada.",
+    "RemodelingInfo": "Revitalice su espacio: servicios de remodelación expertos adaptados a su visión.",
+    "RoofingInfo": "Elevando el techo de la calidad: soluciones de techado confiables para cada necesidad."
+  }
 }
