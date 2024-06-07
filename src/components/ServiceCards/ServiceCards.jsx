@@ -5,8 +5,8 @@ export default function ServiceCards() {
 
   const { t } = useTranslation()
 
-  const {AppAndCab} = t("serviceTitles");
-  const {AppAndCabInfo} = t("serviceSolgan");
+  const {AppAndCab, Decks, Electrical, HomeRepairs, Painting, Plumbing, Remodeling, Roofing} = t("serviceTitles");
+  const {AppAndCabInfo, DecksInfo, ElectricalInfo, HomeRepairsInfo, PaintingInfo, PlumbingInfo, RemodelingInfo, RoofingInfo} = t("serviceSolgan");
 
   return (
     <div className='ServiceCards'>
@@ -21,18 +21,59 @@ export default function ServiceCards() {
       <div className="card" style={{ width: '20rem' }}>
         <img className="card-top" src="" alt=""/>
         <span className="card-body">
-          <h1>{}</h1>
-          <p className="card-text">{}</p>
+          <h1>{Decks}</h1>
+          <p className="card-text">{DecksInfo}</p>
         </span>
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
         <img className="card-top" src="" alt=""/>
         <span className="card-body">
-          <h1>{}</h1>
-          <p className="card-text">{}</p>
+          <h1>{Electrical}</h1>
+          <p className="card-text">{ElectricalInfo}</p>
         </span>
       </div>
+
+      <div className="card" style={{ width: '20rem' }}>
+        <img className="card-top" src="" alt=""/>
+        <span className="card-body">
+          <h1>{HomeRepairs}</h1>
+          <p className="card-text">{HomeRepairsInfo}</p>
+        </span>
+      </div>
+
+      <div className="card" style={{ width: '20rem' }}>
+        <img className="card-top" src="" alt=""/>
+        <span className="card-body">
+          <h1>{Painting}</h1>
+          <p className="card-text">{PaintingInfo}</p>
+        </span>
+      </div>
+
+      <div className="card" style={{ width: '20rem' }}>
+        <img className="card-top" src="" alt=""/>
+        <span className="card-body">
+          <h1>{Plumbing}</h1>
+          <p className="card-text">{PlumbingInfo}</p>
+        </span>
+      </div>
+
+      <div className="card" style={{ width: '20rem' }}>
+        <img className="card-top" src="" alt=""/>
+        <span className="card-body">
+          <h1>{Remodeling}</h1>
+          <p className="card-text">{RemodelingInfo}</p>
+        </span>
+      </div>
+
+      <div className="card" style={{ width: '20rem' }}>
+        <img className="card-top" src="" alt=""/>
+        <span className="card-body">
+          <h1>{Roofing}</h1>
+          <p className="card-text">{RoofingInfo}</p>
+        </span>
+      </div>
+
     </div>
   );
 }
