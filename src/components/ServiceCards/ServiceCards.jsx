@@ -19,7 +19,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/10847167/pexels-photo-10847167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Backyard Decks"/>
         <span className="card-body">
           <h1>{Decks}</h1>
           <p className="card-text">{DecksInfo}</p>
@@ -27,7 +27,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/3651820/pexels-photo-3651820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="hand grabbing lightbulb "/>
         <span className="card-body">
           <h1>{Electrical}</h1>
           <p className="card-text">{ElectricalInfo}</p>
@@ -35,7 +35,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/5691639/pexels-photo-5691639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""/>
         <span className="card-body">
           <h1>{HomeRepairs}</h1>
           <p className="card-text">{HomeRepairsInfo}</p>
