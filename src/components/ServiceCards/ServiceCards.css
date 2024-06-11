@@ -21,6 +21,10 @@
   font-weight: 900;
 }
 
+.ServiceCards img {
+  height: 200px;
+}
+
 @media (max-width: 480px) {
 
 }

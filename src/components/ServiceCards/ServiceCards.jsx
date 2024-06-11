@@ -35,7 +35,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="https://images.pexels.com/photos/5691639/pexels-photo-5691639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/5691639/pexels-photo-5691639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Home Repairs"/>
         <span className="card-body">
           <h1>{HomeRepairs}</h1>
           <p className="card-text">{HomeRepairsInfo}</p>
@@ -43,7 +43,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/994164/pexels-photo-994164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Painting"/>
         <span className="card-body">
           <h1>{Painting}</h1>
           <p className="card-text">{PaintingInfo}</p>
@@ -51,7 +51,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Plumber working on pipe fittings"/>
         <span className="card-body">
           <h1>{Plumbing}</h1>
           <p className="card-text">{PlumbingInfo}</p>
@@ -59,7 +59,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Modern Kitchen"/>
         <span className="card-body">
           <h1>{Remodeling}</h1>
           <p className="card-text">{RemodelingInfo}</p>
@@ -67,7 +67,7 @@ export default function ServiceCards() {
       </div>
 
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="" alt=""/>
+        <img className="card-top" src="https://images.pexels.com/photos/347152/pexels-photo-347152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Roof"/>
         <span className="card-body">
           <h1>{Roofing}</h1>
           <p className="card-text">{RoofingInfo}</p>
