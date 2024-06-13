@@ -1,12 +1,12 @@
 const workImages = [
-  'https://imgur.com/I2V8aHk',
-  'https://imgur.com/K9HALs1',
-  'https://imgur.com/zKQKvfz',
-  'https://imgur.com/Mjavpsq',
-  'https://imgur.com/BjqKObk',
-  'https://imgur.com/Xay7Ant',
-  'https://imgur.com/jkadUyS',
-  'https://imgur.com/wgpsr8D'
-]
+  'https://i.imgur.com/I2V8aHk.jpeg',
+  'https://i.imgur.com/K9HALs1.jpeg',
+  'https://i.imgur.com/zKQKvfz.jpeg',
+  'https://i.imgur.com/Mjavpsq.jpeg',
+  'https://i.imgur.com/BjqKObk.jpeg',
+  'https://i.imgur.com/Xay7Ant.jpeg',
+  'https://i.imgur.com/jkadUyS.jpeg',
+  'https://i.imgur.com/wgpsr8D.jpeg'
+];
 
 export default workImages;

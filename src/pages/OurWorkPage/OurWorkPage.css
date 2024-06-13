@@ -1,0 +1,12 @@
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.image-gallery img {
+  width: 200px;  /* Adjust the size as needed */
+  height: auto;
+  margin: 10px;
+}
