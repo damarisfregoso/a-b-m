@@ -60,5 +60,15 @@
     "PlumbingInfo": "Seamless Flow, Reliable Solutions: Plumbing Excellence Delivered.",
     "RemodelingInfo": "Revitalize Your Space: Expert Remodeling Services Tailored to Your Vision.",
     "RoofingInfo": "Raising the Roof on Quality: Dependable Roofing Solutions for Every Need."
+  }, 
+  "imageAlts": {
+    "1": "Kitchen remodel",
+    "2": "Kitchen remodel",
+    "3": "Creating dining room storage",
+    "4": "Deck remodel",
+    "5": "Remodeling bedrooms",
+    "6": "Creating patio area",
+    "7": "Bathroom remodel",
+    "8": "Bathroom remodel"
   }
 }

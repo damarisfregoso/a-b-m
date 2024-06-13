@@ -60,5 +60,15 @@
     "PlumbingInfo": "Flujo continuo, soluciones confiables: excelencia en plomería entregada.",
     "RemodelingInfo": "Revitalice su espacio: servicios de remodelación expertos adaptados a su visión.",
     "RoofingInfo": "Elevando el techo de la calidad: soluciones de techado confiables para cada necesidad."
+  },
+  "imageAlts": {
+    "1": "Remodelación de cocina",
+    "2": "Remodelación de cocina",
+    "3": "Crear almacenamiento en el comedor",
+    "4": "Remodelación de la cubierta",
+    "5": "Remodelación de dormitorios",
+    "6": "Creando área de patio",
+    "7": "Remodelación del baño",
+    "8": "Remodelación del baño"
   }
 }
