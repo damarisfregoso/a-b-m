@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import ServiceCards from "../../components/ServiceCards/ServiceCards"
+import './OurServicesPage.css'
+
 
 export default function OurServiesPage() {
   const { t } = useTranslation()
@@ -8,7 +10,7 @@ export default function OurServiesPage() {
 
   return (
     <div className="OurServicesPage">
-      <h1>{serviceTitle}</h1>
+      <h1 className="ServiceTitle">{serviceTitle}</h1>
       <ServiceCards />
     </div>
   );
