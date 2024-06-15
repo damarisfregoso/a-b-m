@@ -1,5 +1,5 @@
-.ServiceTitle {
-  background-image: url(https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+.ContactTitle {
+  background-image: url(https://images.pexels.com/photos/5483149/pexels-photo-5483149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,9 +7,10 @@
 }
 
 @media (max-width: 480px) {
-  .ServiceTitle {
+  .ContactTitle {
     font-size: 35px;
     padding: 40px;
   }
 
 }
+

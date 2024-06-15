@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import './WelcomePage.css'
 import ReadyToStart from "../../components/ReadyToStart/ReadyToStart";
+import { Link } from "react-router-dom";
 
 export default function WelcomePage() {
   const { t } = useTranslation()
@@ -28,16 +29,15 @@ export default function WelcomePage() {
         </>
         <>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex obcaecati numquam aspernatur eaque doloremque, temporibus, ipsa culpa atque repellendus veniam quas possimus facere earum omnis dolores laboriosam quidem maxime unde.
-          Molestias commodi modi vel ducimus exercitationem eligendi tempora? Facere enim sunt possimus officiis dolorem cum qui molestias tempora deleniti, quod temporibus distinctio necessitatibus doloribus saepe dicta dolorum perspiciatis accusamus amet!
-          Blanditiis libero fuga cumque facilis! Ad est fugit natus neque reprehenderit porro deleniti eos tempore reiciendis voluptatum saepe eius id veniam ut deserunt, accusamus repellendus quae et? Impedit, unde nulla?</p>
+          Molestias commodi modi vel ducimus exercitationem eligendi tempora? Facere enim sunt possimus officiis dolorem cum qui molestias tempora deleniti, quod temporibus distinctio necessitatibus doloribus saepe dicta dolorum perspiciatis accusamus amet!</p>
         </>
       </div>
       <div className="ourServices">
         <h1 className="chooseUs">{ourServ}</h1>
         <p>{t("servicesQuote")}</p>
         <div className="ourServicesBtns">
-          <button className="welcomeBtns">{explore}</button>
-          <button className="welcomeBtns">{pastWork}</button>
+        <Link to="/services"><button className="welcomeBtns">{explore}</button></Link>
+        <Link to="/our-work"><button className="welcomeBtns">{pastWork}</button></Link>
         </div>
       </div>
       <ReadyToStart />

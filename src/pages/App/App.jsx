@@ -10,10 +10,11 @@ import Footer from '../../components/Footer/Footer';
 import LanguageSelector from '../../components/LanguageSelector/language-selector'
 import ContactUsPage from '../ContactUsPage/ContactUsPage';
 import OurWorkPage from '../OurWorkPage/OurWorkPage';
+import ScrollToTop from '../../components/ScrollToTop';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <div className="App">
@@ -23,13 +24,16 @@ export default function App() {
           <p>{t("contactQuote")}&darr;</p>
         </div>
         <NavBar user={user} setUser={setUser} />
-        <Routes>
-          {/* Route components in here */}
-          <Route path="/" element={<WelcomePage />} />
-          <Route path="/services" element={<OurServicesPage />} />
-          <Route path="/contact" element={<ContactUsPage />}/>
-          <Route path="/our-work" element={<OurWorkPage />}/>
-        </Routes>
+        
+        <ScrollToTop />
+          <Routes>
+            {/* Route components in here */}
+            <Route path="/" element={<WelcomePage />} />
+            <Route path="/services" element={<OurServicesPage />} />
+            <Route path="/contact" element={<ContactUsPage />}/>
+            <Route path="/our-work" element={<OurWorkPage />}/>
+          </Routes>
+
       </div>
       <footer><Footer /></footer>
     </div>

@@ -1,5 +1,5 @@
-import './ServiceCards.css';
 import { useTranslation } from "react-i18next";
+import './ServiceCards.css';
 
 export default function ServiceCards() {
 
@@ -11,7 +11,7 @@ export default function ServiceCards() {
   return (
     <div className='ServiceCards'>
       <div className="card" style={{ width: '20rem' }}>
-        <img className="card-top" src="https://www.pennington.com/all-products/fertilizer/resources/-/media/Project/OneWeb/Pennington/Images/blog/fertilizer/8-Steps-to-Growing-a-Healthy-Indoor-Garden-Anytime/tropical-urban-garden.jpg" alt="plants"/>
+        <img className="card-top" src="https://images.pexels.com/photos/7147290/pexels-photo-7147290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="plants"/>
         <span className="card-body">
           <h1>{AppAndCab}</h1>
           <p className="card-text">{AppAndCabInfo}</p>

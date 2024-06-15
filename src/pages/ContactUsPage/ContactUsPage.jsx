@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import './ContactUsPage.css'
 
 export default function ContactUsPage() {
 
@@ -8,7 +9,7 @@ export default function ContactUsPage() {
 
   return (
   <div className="ContactUsPage">
-    <h1>{contactTitle}</h1>
+    <h1 className="ContactTitle">{contactTitle}</h1>
     <div className="contact-container">
       <div>
         <h1>{cellphone}</h1>
