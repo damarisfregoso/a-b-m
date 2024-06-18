@@ -6,6 +6,20 @@
   padding: 80px;
 }
 
+.contact {
+  font-size: 40px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+.contact-container a{
+  color: var(--light-blue);
+}
+
 @media (max-width: 480px) {
   .ContactTitle {
     font-size: 35px;

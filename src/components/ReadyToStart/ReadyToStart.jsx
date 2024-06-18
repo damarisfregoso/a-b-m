@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './ReadyToStart.css';
 import { useTranslation } from "react-i18next";
 
@@ -9,7 +10,7 @@ export default function ReadyToStart() {
   return (
     <div className='ReadyToStart'>
       <h1>{t("readyToStart")}</h1>
-      <span><button className="welcomeBtns">{contactUs}</button></span>
+      <Link to="/contact"><button className="welcomeBtns">{contactUs}</button></Link>
     </div>
   );
 }

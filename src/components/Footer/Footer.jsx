@@ -22,9 +22,9 @@ export default function Footer() {
       <div className="footer-one">
           <Link to="/services">{ourServ}</Link>
           &nbsp; | &nbsp;
-          <Link to="">{ourWork}</Link>
+          <Link to="/our-work">{ourWork}</Link>
           &nbsp; | &nbsp;
-          <Link to="">{contact}</Link>
+          <Link to="/contact">{contact}</Link>
           &nbsp;&nbsp;
       </div>  
 

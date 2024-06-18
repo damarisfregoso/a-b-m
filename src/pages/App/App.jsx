@@ -26,13 +26,13 @@ export default function App() {
         <NavBar user={user} setUser={setUser} />
         
         <ScrollToTop />
-          <Routes>
-            {/* Route components in here */}
-            <Route path="/" element={<WelcomePage />} />
-            <Route path="/services" element={<OurServicesPage />} />
-            <Route path="/contact" element={<ContactUsPage />}/>
-            <Route path="/our-work" element={<OurWorkPage />}/>
-          </Routes>
+        <Routes>
+          {/* Route components in here */}
+          <Route path="/" element={<WelcomePage />} />
+          <Route path="/services" element={<OurServicesPage />} />
+          <Route path="/contact" element={<ContactUsPage />}/>
+          <Route path="/our-work" element={<OurWorkPage />}/>
+        </Routes>
 
       </div>
       <footer><Footer /></footer>
