@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px;
+  color: white;
+  font-size: 80px;
 }
 
 @media (max-width: 480px) {
@@ -11,5 +13,12 @@
     font-size: 35px;
     padding: 40px;
   }
-
 }
+
+@media (min-width: 481px) and (max-width: 767px){
+  .ServiceTitle {
+    font-size: 45px;
+    padding: 40px;
+  }
+}
+

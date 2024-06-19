@@ -18,6 +18,7 @@
 }
 .contact-container a{
   color: var(--light-blue);
+  text-decoration: underline;
 }
 
 @media (max-width: 480px) {

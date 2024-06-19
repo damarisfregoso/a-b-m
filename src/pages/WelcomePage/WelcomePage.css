@@ -40,12 +40,15 @@
 
 .chooseUs-Box p{
   font-size: 30px;
-  padding: 20px 80px 0 80px;
 }
 
 .chooseUs-Box img{
   max-width: 100%;
   height: auto;
+}
+
+.ourServices  {
+  text-align: center;
 }
 
 .ourServices p {
@@ -79,6 +82,10 @@
   padding: 10px;
   border: 4px solid black;
   border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcomeBtns:hover {
@@ -120,20 +127,80 @@
   .chooseUs-Box p {
     font-size: 17px;
     margin-top: 0;
+    padding: 0 15px;
   }
-  
-  /* .chooseUs-Box img {
-    height: 300px;
-    padding: 10px 0;
-  } */
   
   .ourServices p {
     font-size: 17px;
+    padding: 0 15px;
+    text-align: center;
+  }
+  
+  .ourServicesBtns {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Adjust column width as needed */
+    justify-items: center;
+    padding: 20px 0;
+  }
+
+  .welcomeBtns {
+    text-align: center;
+    font-size: 17px;
+    border: 2px solid black;
+    height: 55px;
+    padding: 0 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .opening {
+    padding: 20px 0;
+  }
+  .opening h1{
+    font-size: 45px;
+  }
+  .opening span {
+    font-size: 20px;
+  }
+  .opening h4 {
+    font-size: 16px;
+  }
+  
+  .quote {
+    font-size: 25px;
+    margin: 10px;
+  }
+  
+  .chooseUs {
+    font-size: 45px;
+  }
+  
+  .chooseUs-Box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chooseUs-Box p {
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0 15px;
+  }
+  
+  .ourServices p {
+    font-size: 17px;
+    padding: 0 15px;
   }
   
   .ourServicesBtns {
     display: grid;
     grid-template-columns: repeat(2, 160px); /* Adjust column width as needed */
+    justify-items: center;
+    padding: 20px;
   }
 
   .welcomeBtns {
@@ -143,16 +210,50 @@
     height: 55px;
     padding: 0 3px;
   }
-
-}
-
-@media (min-width: 481px) and (max-width: 767px){
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+  .opening {
+    padding: 20px 0;
+  }
+  .opening h1{
+    font-size: 40px;
+  }
+
+  .quote {
+    font-size: 30px;
+  }
+
+  .chooseUs-Box p {
+    padding: 10px 80px;
+  }
+
+  .welcomeBtns {
+    height: 75px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
+  .opening {
+    padding: 20px 0;
+  }
+  .opening h1{
+    font-size: 40px;
+  }
+
+  .quote {
+    font-size: 30px;
+  }
+
+  .chooseUs-Box p {
+    padding: 10px 80px;
+  }
+
+  .welcomeBtns {
+    height: 75px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1919px){

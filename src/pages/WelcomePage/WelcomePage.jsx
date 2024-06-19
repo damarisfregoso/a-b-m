@@ -25,11 +25,10 @@ export default function WelcomePage() {
       <h1 className="chooseUs">{t("chooseUs")}</h1>
       <div className="chooseUs-Box">        
         <>
-          <img src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="placeholder for now" />
+          <img src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="workers putting cement" />
         </>
         <>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex obcaecati numquam aspernatur eaque doloremque, temporibus, ipsa culpa atque repellendus veniam quas possimus facere earum omnis dolores laboriosam quidem maxime unde.
-          Molestias commodi modi vel ducimus exercitationem eligendi tempora? Facere enim sunt possimus officiis dolorem cum qui molestias tempora deleniti, quod temporibus distinctio necessitatibus doloribus saepe dicta dolorum perspiciatis accusamus amet!</p>
+          <p>{t("chooseUsQuote")}</p>
         </>
       </div>
       <div className="ourServices">
