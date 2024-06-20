@@ -39,6 +39,10 @@
 
 @media (max-width: 480px) {
   .NavBar span{
-    font-size: 15px;
+    font-size: 10px;
+  }
+
+  .NavBar img {
+    height: 35px;
   }
 }

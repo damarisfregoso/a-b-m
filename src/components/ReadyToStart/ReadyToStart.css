@@ -15,9 +15,10 @@
   margin: 0;
 }
 
-.ReadyToStart span {
-  padding-top: 50px;
+.ReadyToStart a {
+  padding: 10px 0;
 }
+
 
 @media (max-width: 480px) {
   .ReadyToStart {
@@ -25,20 +26,48 @@
   }
 
   .ReadyToStart h1 {
-    font-size: 45px;
+    font-size: 25px;
   }
 
-  .ReadyToStart span {
-    padding: 0;
-  }
 
 }
 
 @media (min-width: 481px) and (max-width: 767px){
+  .ReadyToStart {
+    padding: 10px;
+  }
+
+  .ReadyToStart h1 {
+    font-size: 30px;
+  }
+
 
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+  .ReadyToStart {
+    padding: 10px;
+  }
+
+  .ReadyToStart h1 {
+    font-size: 40px;
+  }
+
+  /* .ReadyToStart .welcomeBtns {
+    font-size: 25px;
+    padding: 0 10px;
+    margin: 10px;
+  } */
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .ReadyToStart {
+    padding: 10px;
+  }
+
+  .ReadyToStart h1 {
+    font-size: 50px;
+  }
 
 }
 
