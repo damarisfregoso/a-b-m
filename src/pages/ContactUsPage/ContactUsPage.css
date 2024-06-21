@@ -18,13 +18,13 @@
   padding: 50px;
 }
 .contact-container a{
-  color: var(--light-blue);
+  color: var(--dark-blue);
   text-decoration: underline;
 }
 
 @media (max-width: 480px) {
   .ContactTitle {
-    font-size: 35px;
+    font-size: 30px;
     padding: 40px;
   }
 
@@ -35,7 +35,7 @@
 
 @media (min-width: 481px) and (max-width: 767px){
   .ContactTitle {
-    font-size: 40px;
+    font-size: 35px;
     padding: 40px;
   }
 
@@ -47,7 +47,7 @@
 @media (min-width: 768px) and (max-width: 991px){
   .ContactTitle {
     font-size: 40px;
-    padding: 40px;
+    padding: 50px;
   }
 
   .contact {
@@ -56,11 +56,17 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-
+  .ContactTitle {
+    font-size: 40px;
+    padding: 60px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1919px){
-
+  .ContactTitle {
+    font-size: 50px;
+    padding: 80px;
+  }
 }
 @media (min-width: 1920px){
 
