@@ -39,10 +39,47 @@
 
 @media (max-width: 480px) {
   .NavBar span{
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .NavBar img {
     height: 35px;
   }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .NavBar span{
+    font-size: 20px;
+  }
+
+  .NavBar img {
+    height: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .NavBar span{
+    font-size: 20px;
+  }
+
+  .NavBar img {
+    height: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .NavBar span{
+    font-size: 20px;
+  }
+
+  .NavBar img {
+    height: 40px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px){
+
+}
+@media (min-width: 1920px){
+
 }

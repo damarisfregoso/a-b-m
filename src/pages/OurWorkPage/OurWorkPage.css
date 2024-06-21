@@ -16,6 +16,7 @@
 .workTitle {
   background-image: url(https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   padding: 80px;
+  color: white;
 }
 
 @media (max-width: 1200px) {

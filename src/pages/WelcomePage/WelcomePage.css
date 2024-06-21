@@ -31,6 +31,7 @@
 .chooseUs {
   font-size: 70px;
   margin-bottom: 0;
+  padding: 15px 0;
 }
 
 .chooseUs-Box {
@@ -263,10 +264,9 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1919px){
-  /* .chooseUs-Box img{
-    height: 800px;
-    padding: 0 80px;
-  } */
+  .opening h1 {
+    font-size: 55px;
+  }
   .chooseUs-Box {
     display: grid;
     justify-content: center;

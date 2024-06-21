@@ -19,7 +19,11 @@ Afforable Building Maintenance is a local and family owned buisness web page.  W
  ## 📸 Screenshots  
   |   Description | Screenshot | 
   |:-------------:| -----------|
-  |<h4></h4> | <img src="">|
+  |<h4>Welcome Page (English/Spanish) </h4> | <img src="https://i.imgur.com/y0673Lw.png"> <img src="https://i.imgur.com/lvziHnZ.png">|
+  |<h4>Servuces Page</h4> | <img src="https://i.imgur.com/5zGl6h9.png">|
+  |<h4>Our Work Page</h4> | <img src="https://i.imgur.com/UuQyTE4.png">|
+  |<h4>Contact Page</h4> | <img src="https://i.imgur.com/8otfcdy.png">|
+
 
 </div>
 
@@ -31,6 +35,7 @@ Afforable Building Maintenance is a local and family owned buisness web page.  W
 ![Express JS](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) 
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![i18n Badge](https://img.shields.io/badge/i18n-supported-black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![MarkDown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![MonogoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -40,24 +45,6 @@ Afforable Building Maintenance is a local and family owned buisness web page.  W
 
 </div>
 
-
-## 📝 Getting Started
-
-<details open>
-  <summary> 📜 Instructions </summary>
-  <br>
-  
-  <p>  </p>
-
-    1. 
-
-
-  <p>  </p>
-
-    1. 
-
-
-</details>
 
 ## 🔗 Links
 <details open>
@@ -71,3 +58,4 @@ Afforable Building Maintenance is a local and family owned buisness web page.  W
 </details>
 
 ## ⏭️ Next Steps
+- [ ] Allow users to create reviews
