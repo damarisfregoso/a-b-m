@@ -17,6 +17,7 @@
   background-image: url(https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   padding: 80px;
   color: white;
+  font-size: 70px;
 }
 
 @media (max-width: 1200px) {
@@ -62,7 +63,7 @@
 
 @media (min-width: 1200px) and (max-width: 1919px){
   .workTitle {
-    font-size: 50px;
+    font-size: 70px;
     padding: 80px;
   }
 }

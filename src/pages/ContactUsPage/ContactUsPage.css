@@ -5,6 +5,7 @@
   background-size: cover;
   padding: 80px;
   color: white;
+  font-size: 70px;
 }
 
 .contact {
@@ -64,7 +65,7 @@
 
 @media (min-width: 1200px) and (max-width: 1919px){
   .ContactTitle {
-    font-size: 50px;
+    font-size: 70px;
     padding: 80px;
   }
 }
