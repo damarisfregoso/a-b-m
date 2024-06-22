@@ -30,7 +30,14 @@
   }
 
   .contact {
-    font-size: 25px;
+    font-size: 23px;
+    text-align: center;
+  }
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

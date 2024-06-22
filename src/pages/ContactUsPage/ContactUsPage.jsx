@@ -11,11 +11,11 @@ export default function ContactUsPage() {
   <div className="ContactUsPage">
     <h1 className="ContactTitle">{contactTitle}</h1>
     <div className="contact-container">
-      <div>
+      <div className="contactBox">
         <h1>{cellphone}</h1>
         <a className="contact" href={`tel:${cellphone}`}>(209)688-5588</a>
       </div>
-      <div>
+      <div className="contactBox">
         <h1>{email}</h1>
         <a className="contact" href={`mailto:${email}`}>Affordablebuildingm6@gmail.com</a>
       </div>
