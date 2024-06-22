@@ -12,6 +12,13 @@
   font-size: 40px;
 }
 
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -33,12 +40,7 @@
     font-size: 23px;
     text-align: center;
   }
-  .contactBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
 }
 
 @media (min-width: 481px) and (max-width: 767px){

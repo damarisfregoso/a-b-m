@@ -132,7 +132,7 @@
   .chooseUs-Box p {
     font-size: 17px;
     margin-top: 0;
-    padding: 0 15px;
+    padding: 20px 15px 0 15px;
   }
   
   .ourServices p {
@@ -191,9 +191,8 @@
   }
   
   .chooseUs-Box p {
-    font-size: 20px;
-    margin-top: 0;
-    padding: 0 15px;
+    font-size: 17px;
+    padding: 20px 15px 0 15px;
   }
   
   .ourServices p {
@@ -230,7 +229,13 @@
   }
 
   .chooseUs-Box p {
-    padding: 10px 80px;
+    padding: 20px 15px 0 15px;
+    font-size: 30px;
+  }
+  
+  .ourServices p {
+    padding: 20px 15px 0 15px;
+    font-size: 30px;
   }
 
   .welcomeBtns {
